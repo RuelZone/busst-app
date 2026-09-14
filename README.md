@@ -17,7 +17,7 @@ create virtual environment:
 
 ```bash
 # Create virtual environment
-python -m venv venv
+python -m venv .venv
 
 # Activate virtual environment
 # Windows
@@ -28,8 +28,6 @@ source venv/bin/activate
 
 # Install dependencies
 pip install -r requirements.txt
-# add .venv/ to your .gitignore so you don't accidentally push the environment to GitHub
-python -m venv .venv
 ```
 
 
