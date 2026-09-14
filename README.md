@@ -13,6 +13,27 @@ pnpm dev
 # or
 bun dev
 ```
+create virtual environment:
+
+```bash
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows
+venv\Scripts\activate
+
+# macOS/Linux
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+# add .venv/ to your .gitignore so you don't accidentally push the environment to GitHub
+python -m venv .venv
+```
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
